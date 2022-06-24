@@ -2,16 +2,21 @@
 <html   lang="en">
 
     <head>
+      <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+      />
         <title>Matcha</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-      <header class="header">
-        <!-- Logo con link a la página principal -->
+      <!--<header class="header">
+       
         <a href="/"class="logo">
           <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha">
         </a>
-        <!-- Menú de navegación -->
+      
         <nav class="navbar">
           <ul>
             <li>Platform</li>
@@ -21,13 +26,49 @@
             <li>About</li>
           </ul>
         </nav>
-        <!-- Contenedor de acciones de usuario -->
+     
         <div class="actions">
           <a>Sign In</a>
           <button>Start free trial</button>
         </div>
       </header>
-      <section class="main">
+      <section class="main">-->
+        <nav class="navbar navbar-expand-lg " style="background-color: #fffbf7;">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">
+              <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Platform</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Customers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 actions justify-content-end">
+
+                  <a href="#">Sign In</a>
+                  <button>Start Free Trial</button>
+                
+              </form>
+                
+            </div>
+          </div>
+        </nav>
     <h1>Build your blog. Build your business.</h1>
     <p>Instantly publish articles, drive more traffic, grow your email list, and see your blog's
         impact on sales</p>
@@ -43,9 +84,50 @@
         <p> 
             <strong>No credit card </strong>required.
         </p> 
+        <figure class="banner">
         <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png"
         alt="Logotipo de capterra" width="1138" height="394" />
+      </figure>
       </section>
+      <section class="promo">
+        <article class="explanatory-video">
+          <video
+            controls
+            poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+          >
+            <source
+              type="video/webm"
+              src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+            />
+            <source
+              type="video/mp4"
+              src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+            />
+          </video>
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
+            alt="See how it works"
+          />
+        </article>
+        <article class="publish">
+          <h3>Publish to your blog in minutes, not hours.</h3>
+          <p>
+            Your blog is your most powerful asset to build, engage, and retain a loyal
+            audience. But you don’t have hours to create content that may or may not
+            work. With Matcha, instantly publish from our library of 10,000+
+            professionally written articles and build your email list faster with our
+            powerful conversion tool.
+          </p>
+          <form>
+            <p>Start publishing today:</p>
+            <div>
+              <input type="text" placeholder="Enter email" />
+              <button>Start My Trial</button>
+            </div>
+          </form>
+        </article>
+      </section>
+      
       <section class="features">
         <article class="feature-card">
           <div class="feature-content">
@@ -146,7 +228,7 @@
             </figure>
           </div>
         </article>
-        
+
       </section>
         
 </body>  
